@@ -1,74 +1,321 @@
 <!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ihejazi.github.io : ">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+    
+<head>
+<meta charset="utf-8">
+<meta name="description" content="description" />
+<meta name="keywords" content="keywords"/>
+<meta name="author" content="BRKOR" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Iman Hejazi Resume</title>
 
-    <title>Ihejazi.github.io</title>
-  </head>
+<!-- google web font-->
+<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-  <body>
+<!-- style sheets-->
+<link rel="stylesheet" media="all" href="css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" media="all" href="css/custom.css" type="text/css"/>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ihejazi">View on GitHub</a>
+<!-- main jquery libraries / others are at the bottom-->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/modernizr.js" type="text/javascript"></script>
 
-          <h1 id="project_title">Ihejazi.github.io</h1>
-          <h2 id="project_tagline"></h2>
+</head>
+<body>
 
-        </header>
+<!-- Top icons -->
+<a class="top-menu hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Menu toggle"><span class="glyphicon glyphicon-th-list"></span></a>
+<a href="#" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Download resume"><span class="glyphicon glyphicon-cloud-download"></span></a>
+<a class="top-contact hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Contact me"><span class="glyphicon glyphicon-send"></span></a>
+<!-- end Top icons -->
+
+<!-- Navigation -->
+<nav id="spy" class="spy hidden-sm hidden-xs">
+    <ul>
+        <li class="active"><a href="#profile">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- end Navigation -->
+    
+<!-- Navigation for small devices -->
+<nav id="mini-nav" class="spy visible-sm visible-xs">
+    <ul>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">Menu</a>
+            <ul class="dropdown-menu">
+                <li class="active"><a href="#profile">Profile</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </li>
+      </ul>
+</nav>
+<!-- end Navigation for small devices -->
+    
+<!-- Header -->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <img src="img/face.jpg" class="face" alt="">
+                <hr class="empty">
+                <p class="header-name">Iman Hejazi</p>
+                <p class="header-title">Student of Metallurgy and Welding Engineering</p>
+                <p class="header-subtitle">
+				Welcome to my academic homepage at Amirkabir University of Technology. I am MSc student of Amirkabir University of Technology (AUT)
+				, one of the most prestigious universities and the first established technical university in Iran at the Department of Mining and Metallurgy. I have BSc degree in Technical Inspection Engineering from Petroleum University of Technology (PUT), Iran.
+				<br>
+				My specific field of interest is High-Tech. and new born welding methods specially Solid State Friction Stir Welding (FSW) and currently, I am working on
+				two parallel projects in this field. Double-Sided FSW and T-Joint FSW welds are major of my interests.
+				<br>
+				I also have ~10 years programming experience in different languages such as PHP, ASP, MySQL, C#, JavaScript &... . I'm a Professional Web Designer and Developer. It's my hobbie!
+				<br>
+				Enthusiastic to continue my education toward the highest levels in science and expand my knowledge about Materials Engineering and world problems as a researcher and improve my intellectual abilities so as to satisfy my desire toward learning.
+				</p>
+            </div>
+        </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+</header>
+<!-- end Header -->
+	
+<!-- Profile -->
+<section id="profile" class="profile activate">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-user"></span>Profile</li>
+                    <li>
+                        <span class="note">Full name</span>
+                        <p><strong>Iman Hejazi</strong></p>
+                    </li>
+                    <li>
+                        <span class="note">Born</span>
+                        <p><strong>21st September 1987</strong></p>
+                        <p><strong>Shiraz, Iran</strong></p>
+                    </li>
+                    
+                    <li>
+                        <span class="note">LinkedIn Profile</span>
+                        <p><strong><a href="#">https://www.linkedin.com/Iman-Hejazi</a></strong></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
+</section>
+<!-- end Profile -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+   
+<!-- Education -->
+<section id="education" class="education">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-book"></span>Education</li>
+                    <li>
+                        <span class="note">2013 - Present</span>
+                        <p><strong>Masters Degree</strong></p>
+                        <p><strong>Amirkabir University of Technology</strong> in Tehran, Iran</p>
+                        <p class="description">Thesis: Optimal Penetration in Double-Sided Friction Stir Welding (FSW) of 6061 Aluminum Alloy.</p>
+                    </li>
+                    <li>
+                        <span class="note">2007 - 2011</span>
+                        <p><strong>Bachelors Degree</strong></p>
+                        <p><strong>Petroleum University of Technology</strong> in Abadan, Iran</p>
+                        <p class="description">Thesis:  HAZOP (Hazard and Operability) study of Catalytic Reformer Unit (CRU) of Abadan Oil Refiner.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
+</section>
+<!-- end Education -->
+    
+<!-- Interests -->
+<section id="interests" class="interests">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Interests</li>
+                    <li>
+                        <p><strong>Friction Stir Welding</strong></p>
+                        <p class="description">Double-Sided FSW of Aluminum Alloys.</p>
+						<p class="description">Commercial Copper T-Joints.</p>
+                    </li>
+                    <li>
+                        <p><strong>Programming</strong></p>
+                        <p class="description">Web Developing: PHP, HTML, JavaScript &... </p>
+						<p class="description">Applications: C# </p>
+                    </li>
+                    <li>
+                        <p><strong>Sports</strong></p>
+                        <p class="description">Swimming</p>
+                    </li>
+                </ul>
+				<ul>
+				<li>
+                        <span class="chart" data-percent="95"><span class="skill">FSW</span>
+                            <span class="percent"></span>
+                        </span>
+                        <span class="chart" data-percent="90"><span class="skill">Programming</span>
+                            <span class="percent"></span>
+                        </span>
+                        <span class="chart" data-percent="70"><span class="skill">Sport</span>
+                            <span class="percent"></span>
+                        </span>
+                    </li>
+				</ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end Interests -->
 
+<!--
+<section id="professional-skills" class="professional-skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-tasks"></span>Professional skills</li>
+                    <li>
+                        <p>Adobe InDesign<span class="annotation pull-right">95%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Adobe Photoshop<span class="annotation pull-right">85%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Adobe Illustrator<span class="annotation pull-right">70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
     
 
-  </body>
+    
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
+                    <li class="static">
+                        <img src="img/1.jpg" alt="" data-toggle="modal" data-target="#modal1">
+                        <img src="img/2.jpg" alt="" data-toggle="modal" data-target="#modal2">
+                        <img src="img/3.jpg" alt="" data-toggle="modal" data-target="#modal3">
+                        <img src="img/4.jpg" alt="" data-toggle="modal" data-target="#modal4">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-box">
+            <img src="img/1.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-box">
+            <img src="img/2.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-box">
+            <img src="img/3.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div id="modal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-box">
+            <img src="img/4.jpg" alt="">
+        </div>
+    </div>
+</div>
+-->
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-5">
+                <ul>
+                    <li class="title"><span class="glyphicon glyphicon-envelope"></span>Contact</li>
+                    <li class="static">
+                        <span class="note">Mobile</span>
+                        <p><strong>+98 912 455 6049</strong></p>
+                        <span class="note">Email</span>
+                        <p><strong><a href="#">i.hejazi [at] aut.ac.ir</a></strong></p>
+                        <hr class="empty">
+                        <form action="http://go3.nazwa.pl/resume-timeline/contact.php" method="post">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                <input name="yourname" type="text" class="form-control" id="inputname" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                <input name="email" type="email" class="form-control" id="inputemail" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-bold"></span></span>
+                                <input name="subject" type="text" class="form-control" id="inputsubject" placeholder="Enter subject">
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span>
+                                <textarea name="comments" class="form-control" id="inputmessage" rows="3" placeholder="Enter message here"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-send"></span> Send message</button>
+                        </form>
+                    </li>
+                    <li class="title up"><span class="glyphicon glyphicon-arrow-up"></span>Up</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end Contact -->
+
+<!-- Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-progressbar.js"></script>
+<script src="js/spy.js"></script>
+<script src="js/scripts.js"></script>
+<!-- Charts -->
+<script src="js/jquery.easypiechart.js"></script>
+<script src="js/chart.js"></script>
+
+</body>
 </html>
